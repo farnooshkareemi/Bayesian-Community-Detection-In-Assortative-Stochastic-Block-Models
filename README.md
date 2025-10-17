@@ -35,29 +35,29 @@ Assortative SBM – enforces
 
 📂**Files**
 
-report.pdf – Full project report, including theory, results, and discussion
+.report.pdf – Full project report, including theory, results, and discussion
 
-code.R – Complete R implementation (network generation, Gibbs sampling, evaluation, and visualization)
+.code.R – Complete R implementation (network generation, Gibbs sampling, evaluation, and visualization)
 
 ⚙️**How to Run**
 
-Install R dependencies:
+.Install R dependencies:
 
-install.packages(c("igraph", "parallel", "ggplot2"))
+.install.packages(c("igraph", "parallel", "ggplot2"))
 
-Run the main R script:
+.Run the main R script:
 
-source("code.R")
+.source("code.R")
 
-The script automatically:
+.The script automatically:
 
-Generates synthetic networks
+.Generates synthetic networks
 
-Runs Gibbs sampling for both models
+.Runs Gibbs sampling for both models
 
-Computes ARI metrics
+.Computes ARI metrics
 
-Produces visual comparisons
+.Produces visual comparisons
 
 **Result Summary:** 
 
