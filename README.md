@@ -1,8 +1,8 @@
-**Bayesian Community Detection in Assortative Stochastic Block Models** 
+# **Bayesian Community Detection in Assortative Stochastic Block Models** 
 
 Bayesian community detection in networks using Gibbs sampling under an assortative Stochastic Block Model to enhance clustering accuracy and robustness.
 
-📘**Overview**
+## 📘**Overview**
 
 Community detection aims to identify groups of nodes in a network that are more densely connected internally than with other groups.
 This project compares:
@@ -21,7 +21,7 @@ Assortative SBM – enforces
 .Assortativity threshold (τ)
 
 
-🧠**Key Features**
+## 🧠**Key Features**
 
 .Bayesian formulation with Dirichlet and Beta priors
 
@@ -33,13 +33,13 @@ Assortative SBM – enforces
 
 .Visualizations: boxplots, histograms, τ distributions, and performance scatterplots
 
-📂**Files**
+## 📂**Files**
 
 .report.pdf – Full project report, including theory, results, and discussion
 
 .code.R – Complete R implementation (network generation, Gibbs sampling, evaluation, and visualization)
 
-⚙️**How to Run**
+## ⚙️**How to Run**
 
 .Install R dependencies:
 
@@ -59,7 +59,7 @@ Assortative SBM – enforces
 
 .Produces visual comparisons
 
-**Result Summary:** 
+## **Result Summary:** 
 
 | Model           | k | Mean ARI  | SD(ARI)   | Mean τ | SD(τ) |
 | --------------- | - | --------- | --------- | ------ | ----- |
@@ -67,3 +67,6 @@ Assortative SBM – enforces
 | Assortative SBM | 3 | **0.880** | **0.075** | 0.208  | 0.042 |
 | Standard SBM    | 4 | 0.350     | 0.190     | —      | —     |
 | Assortative SBM | 4 | 0.620     | 0.160     | 0.225  | 0.035 |
+
+
+
