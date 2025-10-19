@@ -1,6 +1,6 @@
-**Bayesian Community Detection in Assortative Stochastic Block Models**
-This project implements a Bayesian approach to community detection in networks using Gibbs sampling applied to the Stochastic Block Model (SBM) framework. It introduces an assortative constraint that enforces stronger within-community connections, improving clustering accuracy and robustness.
+**Bayesian Community Detection in Assortative Stochastic Block Models** 
 
+Bayesian community detection in networks using Gibbs sampling under an assortative Stochastic Block Model to enhance clustering accuracy and robustness.
 
 📘**Overview**
 
